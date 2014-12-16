@@ -50,8 +50,7 @@ public class DBWorker {
                 System.out.println();
                 System.out.print("Please, input data, which you want insert. Example: 'eggs', 1, 2 \n");
                 String row = scn.next();
-
-                //insertData("'eggs'","GOODS");
+          
                 System.out.flush();
                 insertData(row, table);
 
